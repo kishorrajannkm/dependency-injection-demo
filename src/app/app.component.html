@@ -1,0 +1,8 @@
+<a (click)='toHome()'>Home</a>
+<a (click)='toAbout()'>About</a>
+<a (click)='toContact()'>Contact</a>
+<a (click)='toChildOne()'>Child One</a>
+<a (click)='toChildTwo()'>Child Two</a>
+<p style='border: 1px solid red'>Home Servie Value: {{ homeService.fromValue }}</p>
+<p style='border: 1px solid blue'>Any Servie Value: {{ anyService.anyServiceValue }}</p>
+<router-outlet></router-outlet>
